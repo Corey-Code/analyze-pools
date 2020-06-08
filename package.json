@@ -1,0 +1,19 @@
+{
+  "name": "analyzepoolstats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "report.js",
+  "scripts": {
+    "equihubReport": "node EquihubReport.js",
+    "equihub": "node EquihubByWorker.js",
+    "raptor": "node RaptorByWorker.js",
+    "raptor2": "node Raptor2ByWorker.js",
+    "square": "node SquareByWorker.js",
+    "fenix": "node FenixByWorker.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
